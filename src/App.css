@@ -1,38 +1,224 @@
-.App {
-  text-align: center;
-}
+/* src/App.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  font-family: 'Poppins', sans-serif; 
+  background-color: #f7f9fc; 
+  margin: 0;
+  padding: 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.app {
+  flex: 1; 
+}
+
+.app-header {
+  background-color: #ff6f61; 
+  color: #fff; 
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.theme-dropdown {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #ff867f; 
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.theme-dropdown label {
+  font-size: 14px;
+  color: #fff;
+}
+
+.theme-dropdown select {
+  background-color: #ff9985;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center; 
+  margin: 20px 0;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 600px;
+}
+
+.search-input,
+.search-select {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.filters label {
+  font-size: 14px;
+}
+
+.search-button {
+  background-color: #007bff; 
   color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.search-button:hover {
+  background-color: #0056b3; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.map-and-bookmarks {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.map-container {
+  width: 70%;
+  height: 500px; 
+}
+
+.bookmarks {
+  width: 25%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+}
+
+.bookmarks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bookmarks li {
+  padding: 5px 0;
+}
+
+.restaurant-name {
+  color: #ff6f61; 
+  font-weight: bold;
+  text-decoration: none; 
+}
+
+.restaurant-name:hover {
+  text-decoration: underline; 
+}
+
+.route-planner {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.route-planner ul {
+  list-style: none;
+  padding: 0;
+}
+
+.route-planner li {
+  padding: 5px 0;
+}
+
+.directions-list {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.directions-list ol {
+  padding-left: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  margin-top: auto; 
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .theme-dropdown {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .map-and-bookmarks {
+    flex-direction: column; 
+    align-items: center; 
+    margin: 10px;
+  }
+
+  .map-container,
+  .bookmarks {
+    width: 90%;
+    margin: 10px 0; 
+  }
+
+  .bookmarks {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .search-bar-container {
+    width: 90%;
+    margin: 10px auto; 
+  }
+
+  .search-bar {
+    width: 100%; 
+  }
+
+  .route-planner,
+  .directions-list {
+    width: 90%;
+    margin: 10px auto; 
   }
 }
