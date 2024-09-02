@@ -1,14 +1,14 @@
 // src/services/yelpService.js
 import axios from 'axios';
 
-const YELP_API_KEY = '3C76-SPs628xCyyuv_tZq-_RFCWBtrCHZjHodYdm3xkzhEf4g7rPto7L62RmxX-bEDbBcPFtzDZj2v-jrWReRB8xwKYLPBVLEVw7EqOBB5HGETpH_i9ZpOUC3UvVZnYx';
+const YELP_API_KEY = 'nQnIYPMKTnw8Agypckx8RsAwZaKJmSfadkmXhEbYDa83knvemDk1OzJRo_e_PPuiSLaUvuAaV0CzFHLzf9OUiCbrwRTxcN8YXFcktVPfsRT6Yu7XtPDYIhvJYTnWZnYx';
 
 const getCafesAndBobaSpots = async (location, category, filters) => {
   const url = 'https://api.yelp.com/v3/businesses/search';
   const params = {
     term: category, 
     location: location,
-    categories: 'cafes, bubbletea', 
+    categories: 'cafes, coffee, tea', 
     limit: 10,
   };
 
