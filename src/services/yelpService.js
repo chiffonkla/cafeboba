@@ -5,10 +5,12 @@ const YELP_API_KEY = 'nQnIYPMKTnw8Agypckx8RsAwZaKJmSfadkmXhEbYDa83knvemDk1OzJRo_
 
 const getCafesAndBobaSpots = async (location, category, filters) => {
   const url = 'https://api.yelp.com/v3/businesses/search';
+  let categories = 'cafes,teahouses,tearooms,coffeeshops,coffeeroasteries,bakeries,coffee,tea';
   const params = {
     term: category, 
     location: location,
-    categories: 'cafes, coffee roasteries, bubble tea, coffee & tea', 
+    categories: categories, 
+    radius: 6437,
     limit: 20,
   };
 

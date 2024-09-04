@@ -39,6 +39,7 @@ const SearchBar = ({ onSearch }) => {
       >
         <option value="cafe">Cafe</option>
         <option value="study spot">Study Spot</option>
+        <option value="bakery">Bakery</option>
         <option value="milk tea">Milk Tea</option>
         <option value="fruit tea">Fruit Tea</option>
         <option value="coffee">Coffee</option>
