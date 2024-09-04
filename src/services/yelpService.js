@@ -8,8 +8,8 @@ const getCafesAndBobaSpots = async (location, category, filters) => {
   const params = {
     term: category, 
     location: location,
-    categories: 'cafes, coffee, tea', 
-    limit: 10,
+    categories: 'cafes, coffee roasteries, bubble tea, coffee & tea', 
+    limit: 20,
   };
 
   if (filters.freeWiFi) {
