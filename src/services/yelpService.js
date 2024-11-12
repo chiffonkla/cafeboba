@@ -1,7 +1,7 @@
 // src/services/yelpService.js
 import axios from 'axios';
 
-const YELP_API_KEY = 'nQnIYPMKTnw8Agypckx8RsAwZaKJmSfadkmXhEbYDa83knvemDk1OzJRo_e_PPuiSLaUvuAaV0CzFHLzf9OUiCbrwRTxcN8YXFcktVPfsRT6Yu7XtPDYIhvJYTnWZnYx';
+const YELP_API_KEY = process.env.REACT_APP_YELP_API_KEY;
 
 const getCafesAndBobaSpots = async (location, category, filters) => {
   const url = 'https://api.yelp.com/v3/businesses/search';
