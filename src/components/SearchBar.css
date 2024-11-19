@@ -20,7 +20,7 @@
 
 .search-button {
   padding: 10px 15px;
-  background-color: #4caf50;
+  background-color: #b3a1fb;
   color: white;
   border: none;
   cursor: pointer;
@@ -28,7 +28,7 @@
 }
 
 .search-button:hover {
-  background-color: #45a049;
+  background-color: #ad76c2;
 }
 
 .theme-select {

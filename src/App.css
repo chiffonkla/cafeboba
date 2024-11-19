@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Poppins', sans-serif; 
-  background-color: #f7f9fc; 
+  background-color: rgb(250, 234, 234);
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -15,7 +15,7 @@ body {
 }
 
 .app-header {
-  background-color: #ff6f61; 
+  background-color: #d9b2f7; 
   color: #fff; 
   padding: 20px;
   display: flex;
@@ -33,7 +33,7 @@ body {
   position: absolute;
   top: 20px;
   right: 20px;
-  background-color: #ff867f; 
+  background-color: #bd88e8; 
   color: #fff;
   padding: 10px;
   border-radius: 5px;
@@ -45,7 +45,7 @@ body {
 }
 
 .theme-dropdown select {
-  background-color: #ff9985;
+  background-color: #d9b2f7; 
   color: #fff;
   border: none;
   padding: 5px;
