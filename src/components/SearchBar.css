@@ -1,0 +1,36 @@
+/* src/components/SearchBar.css */
+.search-bar {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.search-select {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px 15px;
+  background-color: #786b83; 
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-button:hover {
+  background-color: #ad76c2;
+}
+
+.theme-select {
+  margin-top: 10px;
+}
