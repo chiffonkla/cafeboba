@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/cafeboba/static/css/main.fc3e8d29.css",
-    "main.js": "/cafeboba/static/js/main.ba9fe333.js",
+    "main.css": "/cafeboba/static/css/main.c9b5f25e.css",
+    "main.js": "/cafeboba/static/js/main.070150a3.js",
     "static/js/453.a6b5d6a3.chunk.js": "/cafeboba/static/js/453.a6b5d6a3.chunk.js",
+    "static/media/teacoffee.png": "/cafeboba/static/media/teacoffee.1edc1e67d172cae1443f.png",
     "index.html": "/cafeboba/index.html",
-    "main.fc3e8d29.css.map": "/cafeboba/static/css/main.fc3e8d29.css.map",
-    "main.ba9fe333.js.map": "/cafeboba/static/js/main.ba9fe333.js.map",
+    "main.c9b5f25e.css.map": "/cafeboba/static/css/main.c9b5f25e.css.map",
+    "main.070150a3.js.map": "/cafeboba/static/js/main.070150a3.js.map",
     "453.a6b5d6a3.chunk.js.map": "/cafeboba/static/js/453.a6b5d6a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc3e8d29.css",
-    "static/js/main.ba9fe333.js"
+    "static/css/main.c9b5f25e.css",
+    "static/js/main.070150a3.js"
   ]
 }
