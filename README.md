@@ -1,4 +1,4 @@
-# Brew and Bubble - Cafe and Boba Spot Explorer
+# Lattea Love
 
 Web app to help users discover nearby cafes, bakeries and boba shops with cute visualization and links to Yelp for reviews and pictures. Perfect for cafe enthusiasts and boba lovers!
 
