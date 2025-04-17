@@ -43,7 +43,11 @@ const MapContainer = ({
 
   useEffect(() => {
     if (mapRef.current && mapCenter) {
-      mapRef.current.setCenter([mapCenter.lng, mapCenter.lat]);
+      mapRef.current.flyTo({
+        center: [mapCenter.lng, mapCenter.lat],
+        zoom: 11, 
+        essential: true
+      });
     }
   }, [mapCenter]);
 
