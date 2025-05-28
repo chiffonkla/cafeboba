@@ -2,7 +2,6 @@
   "name": "cafe-boba-explorer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://chiffonkla.github.io/cafeboba",
   "dependencies": {
     "@react-google-maps/api": "^2.19.3",
     "@testing-library/jest-dom": "^5.17.0",
