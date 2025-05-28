@@ -39,7 +39,7 @@ const MapContainer = ({
     mapRef.current.on('click', () => {
       setSelectedCafe(null);
     });
-  }, []);
+  }, [mapStyle, mapCenter.lat, mapCenter.lng]);
 
   useEffect(() => {
     if (mapRef.current && mapCenter) {
