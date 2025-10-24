@@ -1,7 +1,6 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
 import './App.css'; 
-import logo from './assets/teacoffee.png'; 
 import MapContainer from './components/MapContainer';
 import SearchBar from './components/SearchBar';
 import { getCafesAndBobaSpots } from './services/yelpService';
@@ -89,10 +88,7 @@ const App = () => {
   return (
     <div className="app">
       <header className="app-header">
-      <div className="logo-container">
-        <img src={logo} alt="Logo" className="app-logo" />
         <h1>Lattea Love</h1>
-      </div>
         <div className="theme-dropdown">
           <label>
             Map Style:
