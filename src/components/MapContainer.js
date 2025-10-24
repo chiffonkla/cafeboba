@@ -8,7 +8,7 @@ import teaIcon from '../assets/cocktail_2.png';
 import coffeeIcon from '../assets/CherryChocolatePot.png';
 import bobaIcon from '../assets/Bubble Milk Tea.png';
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiaGFuYXRzYWlpIiwiYSI6ImNtOTlqaHI4cTA1MGoyc3BxMTBrYzVpZXMifQ.90ziqGhXlf2t4DQHxRU50Q'; 
+mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN; 
 
 const MapContainer = ({
   cafes,
