@@ -3,10 +3,11 @@ import React, { useEffect, useRef, useState } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import './MapContainer.css';
-import defaultIcon from '../assets/01_dish.png';
-import teaIcon from '../assets/cocktail_2.png';
-import coffeeIcon from '../assets/CherryChocolatePot.png';
-import bobaIcon from '../assets/Bubble Milk Tea.png';
+import defaultIcon from '../assets/default_icon.png';
+import teaIcon from '../assets/tea_icon.png';
+import coffeeIcon from '../assets/coffee_icon.png';
+import bobaIcon from '../assets/boba_icon.png';
+import pastryIcon from '../assets/pastry_icon.png';
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN; 
 
@@ -127,6 +128,7 @@ const MapContainer = ({
               <option value={teaIcon}>Tea</option>
               <option value={coffeeIcon}>Coffee</option>
               <option value={bobaIcon}>Boba</option>
+              <option value={pastryIcon}>Pastry</option>
             </select>
           </div>
 
