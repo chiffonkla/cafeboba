@@ -11,6 +11,7 @@ const mapStyles = {
   dark: 'mapbox://styles/mapbox/dark-v10',
   outdoors: 'mapbox://styles/mapbox/outdoors-v11',
   satellite: 'mapbox://styles/mapbox/satellite-v9',
+  navigation: 'mapbox://styles/mapbox/navigation-day-v1',
 };
 
 const App = () => {
@@ -96,7 +97,7 @@ const App = () => {
               <option value="streets">Streets</option>
               <option value="light">Light</option>
               <option value="dark">Dark</option>
-              <option value="outdoors">Outdoors</option>
+              <option value="navigation">Navigation</option>
               <option value="satellite">Satellite</option>
             </select>
           </label>
