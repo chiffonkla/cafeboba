@@ -110,7 +110,7 @@ const MapContainer = ({
             <button onClick={() => onBookmark(selectedCafe)}>
               {isBookmarked(selectedCafe) ? 'Remove Bookmark' : 'Add to Bookmarks'}
             </button>
-            <button onClick={() => onAddToRoute(selectedCafe)}>Add to Route</button>
+            {/* <button onClick={() => onAddToRoute(selectedCafe)}>Add to Route</button> */}
           </div>
 
           <textarea
