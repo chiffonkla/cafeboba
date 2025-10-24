@@ -35,15 +35,6 @@ body {
   font-size: 24px;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-}
-
-.app-logo {
-  height: 40px;
-  margin-right: 10px;
-}
 
 .theme-dropdown {
   position: absolute;
