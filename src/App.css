@@ -40,10 +40,7 @@ body {
   position: absolute;
   top: 20px;
   right: 20px;
-  background-color: #786b83; 
   color: #fff;
-  padding: 10px;
-  border-radius: 5px;
 }
 
 .theme-dropdown label {
@@ -187,14 +184,15 @@ body {
 
 @media (max-width: 768px) {
   .app-header {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
     padding: 10px;
+    justify-content: space-between;
   }
 
   .theme-dropdown {
     position: static;
-    margin-top: 10px;
+    margin-top: 0;
   }
 
   .map-and-bookmarks {
